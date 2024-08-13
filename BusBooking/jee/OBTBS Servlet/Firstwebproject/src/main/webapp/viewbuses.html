@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>View Buses</title>
+<link rel="stylesheet" href="busbooking.css">
+</head>
+<body>
+     <header>
+            <h1 class="text1">Bus Booking</h1>
+            <section class="section1">
+                <a href="mainhome.html" class="link1">Home</a>
+                <a href="viewbuses.html" class="link1">View Buses</a>
+                <a href="login.html" class="link1">Login</a>
+                <a href="contact.html" class="link1">Contact</a>
+            </section>
+        </header>
+        
+        <section class="section3">
+        <div class="div3">BUS LIST</div>
+            <form action="busbooking.html" method="get" class="form1">
+                <label class="label1" >From city:</label><input type="text" name="starting" placeholder="From city" class="input1">
+                <label class="label1">To city:</label><input type="text" name="ending" placeholder="To city" class="input1">
+                <label class="label1">date:</label><input type="date" name="date" class="input1">
+                <input type="submit" value="search">
+            </form>
+            <table class="table1">
+                <tr class="thead1">
+                    <td class="tdata1">Bus No.</td>
+                    <td class="tdata1">Bus Name</td>
+                    <td class="tdata1">From city</td>
+                    <td class="tdata1">To city</td>
+                    <td class="tdata1">Date</td>
+                    <td class="tdata1">Time</td>
+                    <td class="tdata1">Station Name</td>
+                    <td class="tdata1">Ticket price</td>
+                    <td class="tdata1">Description</td>
+                </tr>
+                <tr>
+                    <td>11923</td>
+                    <td>Super Luxury</td>
+                    <td>Hyderabad</td>
+                    <td>Banglore</td>
+                    <td>25-october-2022</td>
+                    <td>23:15</td>
+                    <td>MGBS</td>
+                    <td>$80</td>
+                    <td>via adhilabad</td>
+                </tr>
+                <tr>
+                    <td>12950</td>
+                    <td>Express</td>
+                    <td>Hyderabad</td>
+                    <td>Suryapet</td>
+                    <td>22-october-2022</td>
+                    <td>13:45</td>
+                    <td>JBS</td>
+                    <td>$30</td>
+                    <td>via nalgonda</td>
+                </tr>
+            </table>
+        </section>
+        
+        <footer>
+            <h5 >©copyright| Sainath Industries</h5>
+        </footer>
+</body>
+</html>

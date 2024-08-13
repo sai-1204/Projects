@@ -1,0 +1,127 @@
+@charset "ISO-8859-1";
+header{
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: +1;
+}
+footer{
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: +1; 
+}
+.text1{
+    color: white;
+    position: absolute;
+    left: 0px;
+    font-size: 25px;
+    padding: 0px 10px;
+    margin: 20px;
+}
+.section1{
+    position: relative;
+    left: 180px;
+    padding: 0px 10px;
+    margin: 20px;
+}
+.link1{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    padding: 0px 10px;
+}
+.image1{
+	margin-top:70px;
+	margin-left:600px;
+	top:100px;
+}
+.div1{
+	font-size: 100px;
+	text-align: center;
+}
+.div2{
+	font-size: 50px;
+	text-align: center;
+}
+.section3{
+    margin-top: 70px;
+    left: 0px;
+}
+.div3{
+    color: black;
+    text-align: center;
+    font-size: 25px; 
+}
+.form1{
+    background-color: azure;
+    border-top: solid cornflowerblue 1px;
+    border-left: solid cornflowerblue 1px;
+    padding: 20px;
+}
+.label1{
+    text-align: center;
+    padding-right: 10px;
+}
+.input1{
+    padding-right: 50px;
+    margin-right: 50px;
+}
+.table1{
+    background-color: rgb(252, 232, 235);
+    border-top: solid crimson 1px;
+    border-left: solid crimson 1px;
+    margin: 20px 0px 10px 0px;
+}
+.tdata1{
+    background-color: lightpink;
+    font-weight: bold;
+}
+td{
+    text-align: center;
+    padding: 5px 30px;
+    border-right: solid crimson 1px;
+    border-bottom: solid crimson 1px;
+}
+.form2{
+    background-color: azure;
+    border-radius:2px;
+    padding:10px;
+    width:30%;
+    margin-left:auto;
+    margin-right: auto;
+}
+.label2{
+    text-align: center;
+    font-size: 20px;
+    margin:10px 30px;
+    position: absolute;
+    
+}
+.input2{
+	text-align: center;
+	padding: 5px;
+	margin:10px 25px;
+	position: relative;
+	left: 125px;
+}
+.div4{
+	color: black;
+    text-align: center;
+    font-size: 20px;
+    margin:10px 0px; 
+}
+.link2{
+	color: orange;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
